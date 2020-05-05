@@ -635,7 +635,7 @@ define(
         pattern: /@[\w-]+?.*?(;|(?=\s*\{))/i,
         inside: {
           'rule': /@[\w-]+/
-          // See rest below
+          // See api below
         }
       },
       'url': /url\((?:(["'])(\\(?:\r\n|[\w\W])|(?!\1)[^\\\r\n])*\1|.*?)\)/i,

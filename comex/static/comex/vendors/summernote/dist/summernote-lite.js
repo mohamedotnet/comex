@@ -326,7 +326,7 @@
     };
 
     /**
-     * returns the rest of the items in an array.
+     * returns the api of the items in an array.
      *
      * @param {Array} array
      */

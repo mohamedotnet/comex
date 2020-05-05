@@ -160,7 +160,7 @@
             </li>
             <li class="nav-item nav-category">Main Menu</li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">
+              <a class="nav-link" href="{% url 'index' %}">
                 <i class="menu-icon typcn typcn-document-text"></i>
                 <span class="menu-title">Dashboard</span>
               </a>
@@ -174,19 +174,19 @@
               <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/ui-features/buttons.html">Networks Graph</a>
+                    <a class="nav-link" href="{% url 'index'%}">Networks Graph</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="{% url 'create_network'%}">Create Network</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/ui-features/typography.html">Manage Networks</a>
+                    <a class="nav-link" href="{% url 'networks'%}">Manage Networks</a>
                   </li>
                 </ul>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/forms/basic_elements.html">
+              <a class="nav-link" href="{% url 'containers' %}">
                 <i class="menu-icon typcn typcn-shopping-bag"></i>
                 <span class="menu-title">Assign Containers</span>
               </a>

@@ -24,6 +24,7 @@
     "ipv6.address": "",
     "ipv6.dhcp": true,
     "ipv6.dhcp.expiry": "1h",
+    "ipv6.dhcp.ranges": "",
     "ipv6.dhcp.stateful": false,
     "ipv6.firewall": true,
     "ipv6.nat": false,
@@ -41,9 +42,9 @@
     "tunnel.NAME.remote": "",
     "tunnel.NAME.ttl": 1
   },
-  "description": "Kaouther, honey, you are awesome ;* ",
+  "description": "",
   "managed": true,
-  "name": "Enhanced_network",
+  "name": "lxd-networkhhh",
   "network.type": "bridged",
   "status": "Created"
 }

@@ -1,6 +1,11 @@
 from django.shortcuts import render, redirect
-from comex.helper import wrappers
+from comex.helper.wrappers import wrappers
 from comex.helper.generators import JSONGenerator
+from pylxd import Client
+from comex.helper.core.networks_manager import create_network_lxd, all_networks_lxd
+from comex.helper.core.containers_manager import *
+
+client = Client()
 
 
 def index(request):
@@ -54,28 +59,35 @@ def create_network(request):
                                                      request.POST.get("ttl"))
 
         # generate configuration file
-        config_file = JSONGenerator.create_network_json_file(net, net_config)
-        # parse the configuration file + validation
-        # config_file_parser.parse_network_config_file(config_file)
-        # create the network
-
-        # call the creation function with 'configFile'
+        config_map = JSONGenerator.generate_network_json_file(net, net_config)
+        # TODO: validate the network json file and send feedback in case of anomaly
+        # validation code goes here
+        # Create the network if no anomaly
+        create_network_lxd(client, config_map)
+        # TODO: add success attribute to context
         return redirect(index)
 
     return render(request, 'comex/createNetwork.html')
 
 
-def modify_network(request, network_id):
+def modify_network(request):
     pass
 
 
-def list_networks(request):
-    pass
+def networks(request):
+    all_networks = all_networks_lxd(client)
+    context = {'networks': all_networks}
+    return render(request, 'comex/networks.html', context=context)
 
 
-def assign_container(request):
-    pass
+def containers(request):
+    all_containers = all_containers_lxd(client)
+    context = {'containers': all_containers}
+    return render(request, 'comex/containers.html', context=context)
 
 
-def post_network(request):
-    return render(request, 'comex/index.html')
+def connect_container(request, container_name):
+    context = {'container': get_container(client, container_name),
+               'container_network': get_container_networks(client, container_name),
+               'networks': all_networks_lxd(client)}
+    return render(request, 'comex/connectContainer.html', context=context)

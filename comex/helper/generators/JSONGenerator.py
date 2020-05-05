@@ -4,7 +4,6 @@ import re
 import collections
 
 
-# TODO: handle external_interfaces and dnsmasq
 def adjust_attribute(attribute):
     symbols = re.split("([A-Z][a-z]*_*[a-z]*)", attribute)
     for symbol in symbols:
@@ -21,7 +20,7 @@ def adjust_attribute(attribute):
     return attribute
 
 
-def create_network_json_file(network, network_config):
+def generate_network_json_file(network, network_config):
     net = {}
     n_config = {}
     for config, value in network_config.__dict__.items():
@@ -40,7 +39,7 @@ def create_network_json_file(network, network_config):
     # sort network entries for a better layout in file
     net = collections.OrderedDict(sorted(net.items()))
     # Write data to JSON Config File
-    with open('network_configuration.json', 'w') as configuration:
-        json.dump(net, configuration)
+    configuration = open('network_configuration.json', 'w')
+    json.dump(net, configuration)
 
-    return configuration
+    return net

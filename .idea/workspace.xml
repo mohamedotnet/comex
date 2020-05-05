@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84e71167-fc8c-4b51-bcd3-51c3ae72b4c4" name="Default Changelist" comment="" />
+    <list default="true" id="84e71167-fc8c-4b51-bcd3-51c3ae72b4c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/comex/helper/core/containers_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comex/helper/core/networks_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comex/templates/comex/connectContainer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comex/templates/comex/containers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comex/templates/comex/networks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comex/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comex/templatetags/extra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/comex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/comex.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/comex/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/helper/creators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/helper/generators/JSONGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/comex/helper/generators/JSONGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/helper/parsers/config_file_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/comex/helper/parsers/config_file_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/comex/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/static/comex/vendors/ace-builds/src-min/mode-applescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/comex/static/comex/vendors/ace-builds/src-min/mode-applescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/static/comex/vendors/ace-builds/src-min/mode-clojure.js" beforeDir="false" afterPath="$PROJECT_DIR$/comex/static/comex/vendors/ace-builds/src-min/mode-clojure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/static/comex/vendors/ace-builds/src-min/mode-mushcode.js" beforeDir="false" afterPath="$PROJECT_DIR$/comex/static/comex/vendors/ace-builds/src-min/mode-mushcode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/static/comex/vendors/ace-builds/src-min/mode-swig.js" beforeDir="false" afterPath="$PROJECT_DIR$/comex/static/comex/vendors/ace-builds/src-min/mode-swig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/static/comex/vendors/ace-builds/src-min/snippets/ruby.js" beforeDir="false" afterPath="$PROJECT_DIR$/comex/static/comex/vendors/ace-builds/src-min/snippets/ruby.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/static/comex/vendors/ace-builds/src-min/worker-javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/comex/static/comex/vendors/ace-builds/src-min/worker-javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/static/comex/vendors/jstree/jstree.js" beforeDir="false" afterPath="$PROJECT_DIR$/comex/static/comex/vendors/jstree/jstree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/static/comex/vendors/summernote/dist/summernote-bs4.js" beforeDir="false" afterPath="$PROJECT_DIR$/comex/static/comex/vendors/summernote/dist/summernote-bs4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/static/comex/vendors/summernote/dist/summernote-lite.js" beforeDir="false" afterPath="$PROJECT_DIR$/comex/static/comex/vendors/summernote/dist/summernote-lite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/static/comex/vendors/summernote/dist/summernote.js" beforeDir="false" afterPath="$PROJECT_DIR$/comex/static/comex/vendors/summernote/dist/summernote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/static/comex/vendors/tinymce/plugins/codesample/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/comex/static/comex/vendors/tinymce/plugins/codesample/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/templates/comex/assignContainer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/templates/comex/basic_elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/templates/comex/createNetwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/comex/templates/comex/createNetwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/templates/comex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/comex/templates/comex/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/templates/comex/listNetworks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/templates/comex/manageNetwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/comex/templates/comex/manageNetwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/templates/comex/modifyNetwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/comex/templates/comex/modifyNetwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/comex/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comex/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/comex/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connct/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/connct/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network_configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/network_configuration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/comex/helper/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,10 +93,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1Z7QICIUcFt4njN64A6LunzeNzM" />
   <component name="ProjectViewState">
@@ -60,7 +127,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/comex/schema/network_schema.json" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="PyCoverageOptionsProvider">
     <option name="myUseBundledCoveragePy" value="true" />
@@ -74,7 +141,29 @@
       <recent name="C:\Users\DELL\PycharmProjects\comex\comex\helper" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.config_file_validator">
+  <component name="RunManager" selected="Django server.comex">
+    <configuration name="config_file_parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="comex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comex/helper/parsers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comex/helper/parsers/config_file_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="config_file_validator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="comex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,7 +186,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="parser_template" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lxd_signals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="comex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,12 +194,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comex/templates/comex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comex/helper" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\DELL\PycharmProjects\comex\comex\helper\wrappers\parser_template.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comex/helper/lxd_signals.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="network_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="comex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comex/helper/creators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comex/helper/creators/network_creator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,9 +260,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="connct.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\DELL\PycharmProjects\comex\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -167,15 +278,19 @@
     </configuration>
     <list>
       <item itemvalue="Django server.comex" />
-      <item itemvalue="Python.reversing" />
-      <item itemvalue="Python.parser_template" />
       <item itemvalue="Python.config_file_validator" />
+      <item itemvalue="Python.reversing" />
+      <item itemvalue="Python.config_file_parser" />
+      <item itemvalue="Python.network_creator" />
+      <item itemvalue="Python.lxd_signals" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lxd_signals" />
+        <item itemvalue="Python.network_creator" />
+        <item itemvalue="Python.config_file_parser" />
         <item itemvalue="Python.config_file_validator" />
         <item itemvalue="Python.reversing" />
-        <item itemvalue="Python.parser_template" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +309,19 @@
       <workItem from="1584393016792" duration="46007000" />
       <workItem from="1584661848995" duration="89230000" />
       <workItem from="1585182315758" duration="70934000" />
+      <workItem from="1585588272003" duration="268000" />
+      <workItem from="1585594049853" duration="3275000" />
+      <workItem from="1585602003114" duration="7930000" />
+      <workItem from="1585658260853" duration="914000" />
+      <workItem from="1585659313811" duration="30072000" />
+      <workItem from="1585749981494" duration="9752000" />
+      <workItem from="1586117289037" duration="1181000" />
+      <workItem from="1586127249187" duration="28722000" />
+      <workItem from="1586272697924" duration="11528000" />
+      <workItem from="1586441010520" duration="9488000" />
+      <workItem from="1586523924590" duration="16869000" />
+      <workItem from="1586617373982" duration="11046000" />
+      <workItem from="1588687199022" duration="594000" />
     </task>
     <servers />
   </component>
@@ -209,9 +337,10 @@
       <screen x="-1366" y="0" width="1366" height="768" />
     </state>
     <state x="-1090" y="46" key="#JSON_Schema_Mappings/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1585434786203" />
-    <state x="-1248" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585417641170">
-      <screen x="-1366" y="0" width="1366" height="768" />
+    <state x="118" y="34" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585748397629">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="118" y="34" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585748397629" />
     <state x="-1248" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1585417641170" />
     <state x="273" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1585257232466" />
     <state x="451" y="192" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584973799861">
@@ -223,79 +352,104 @@
     </state>
     <state x="-956" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.0.1366.768/0.0.1366.768@-1366.0.1366.768" timestamp="1584619023945" />
     <state x="410" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1585425476186" />
+    <state x="391" y="0" width="587" height="723" key="#comex" timestamp="1585748116044">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="0" width="587" height="723" key="#comex/0.0.1366.728@0.0.1366.728" timestamp="1585748116044" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1584985050131">
       <screen x="-1366" y="0" width="1366" height="768" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1584985050131" />
-    <state x="-968" y="143" key="EnvironmentVariablesDialog" timestamp="1585417619492">
-      <screen x="-1366" y="0" width="1366" height="768" />
+    <state x="398" y="136" width="737" height="543" key="EnvironmentVariablesDialog" timestamp="1585748342898">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="398" y="136" width="737" height="543" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585748342898" />
     <state x="-968" y="143" key="EnvironmentVariablesDialog/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1585417619492" />
-    <state x="-892" y="138" key="FileChooserDialogImpl" timestamp="1585434784448">
-      <screen x="-1366" y="0" width="1366" height="768" />
+    <state x="474" y="131" width="424" height="479" key="FileChooserDialogImpl" timestamp="1585599637529">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="474" y="131" width="424" height="479" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585599637529" />
     <state x="-892" y="138" key="FileChooserDialogImpl/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1585434784448" />
-    <state width="1294" height="189" key="GridCell.Tab.0.bottom" timestamp="1585505704181">
-      <screen x="-1366" y="0" width="1366" height="768" />
+    <state width="1324" height="173" key="GridCell.Tab.0.bottom" timestamp="1586631083846">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1294" height="189" key="GridCell.Tab.0.bottom/-1366.0.1366.768/0.0.1366.768@-1366.0.1366.768" timestamp="1585505704181" />
     <state width="1307" height="192" key="GridCell.Tab.0.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1585493924578" />
+    <state width="1324" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586631083846" />
     <state width="1307" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1585431806139" />
     <state width="1307" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1585426219077" />
-    <state width="1294" height="189" key="GridCell.Tab.0.center" timestamp="1585505704180">
-      <screen x="-1366" y="0" width="1366" height="768" />
+    <state width="1324" height="173" key="GridCell.Tab.0.center" timestamp="1586631083844">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1294" height="189" key="GridCell.Tab.0.center/-1366.0.1366.768/0.0.1366.768@-1366.0.1366.768" timestamp="1585505704180" />
     <state width="1307" height="192" key="GridCell.Tab.0.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1585493924578" />
+    <state width="1324" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586631083844" />
     <state width="1307" height="192" key="GridCell.Tab.0.center/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1585431806137" />
     <state width="1307" height="192" key="GridCell.Tab.0.center/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1585426219077" />
-    <state width="1294" height="189" key="GridCell.Tab.0.left" timestamp="1585505704180">
-      <screen x="-1366" y="0" width="1366" height="768" />
+    <state width="1324" height="173" key="GridCell.Tab.0.left" timestamp="1586631083843">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1294" height="189" key="GridCell.Tab.0.left/-1366.0.1366.768/0.0.1366.768@-1366.0.1366.768" timestamp="1585505704180" />
     <state width="1307" height="192" key="GridCell.Tab.0.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1585493924577" />
+    <state width="1324" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586631083843" />
     <state width="1307" height="192" key="GridCell.Tab.0.left/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1585431806137" />
     <state width="1307" height="192" key="GridCell.Tab.0.left/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1585426219076" />
-    <state width="1294" height="189" key="GridCell.Tab.0.right" timestamp="1585505704180">
-      <screen x="-1366" y="0" width="1366" height="768" />
+    <state width="1324" height="173" key="GridCell.Tab.0.right" timestamp="1586631083845">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1294" height="189" key="GridCell.Tab.0.right/-1366.0.1366.768/0.0.1366.768@-1366.0.1366.768" timestamp="1585505704180" />
     <state width="1307" height="192" key="GridCell.Tab.0.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1585493924578" />
+    <state width="1324" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586631083845" />
     <state width="1307" height="192" key="GridCell.Tab.0.right/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1585431806138" />
     <state width="1307" height="192" key="GridCell.Tab.0.right/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1585426219077" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1584984566608">
       <screen x="-1366" y="0" width="1366" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1584984566608" />
-    <state x="-1171" y="26" key="SettingsEditor" timestamp="1584560754388">
-      <screen x="-1366" y="0" width="1366" height="768" />
+    <state x="195" y="0" key="SettingsEditor" timestamp="1586272317258">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="195" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586272317258" />
     <state x="-1171" y="26" key="SettingsEditor/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1584560754388" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1584810090893">
       <screen x="-1366" y="0" width="1366" height="768" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1584810090893" />
-    <state x="377" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1585182489843">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="683" height="364" key="XDebugger.FullValuePopup" timestamp="1586531092568">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="683" height="364" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1586531092568" />
+    <state x="282" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1588687823308">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1585588273871" />
+    <state x="282" y="195" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588687823308" />
     <state x="-989" y="203" key="com.intellij.ide.util.TipDialog/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1584661856556" />
     <state x="377" y="203" key="com.intellij.ide.util.TipDialog/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1585182489843" />
     <state x="-1035" y="0" width="737" height="768" key="find.popup" timestamp="1584556455795">
       <screen x="-1366" y="0" width="1366" height="768" />
     </state>
     <state x="-1035" y="0" width="737" height="768" key="find.popup/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1584556455795" />
-    <state x="352" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585266539561">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="352" y="84" width="672" height="643" key="search.everywhere.popup" timestamp="1585747779174">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="352" y="84" width="672" height="643" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585747779174" />
     <state x="-1014" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768/-1366.0.1366.768@-1366.0.1366.768" timestamp="1584400801823" />
     <state x="352" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1585266539561" />
+    <state x="408" y="268" width="540" height="185" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586217496399">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="408" y="268" width="540" height="185" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1586217496399" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/comex$parser__1_.coverage" NAME="parser (1) Coverage Results" MODIFIED="1585252156779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/helper" />
-    <SUITE FILE_PATH="coverage/comex$JSONGenerator.coverage" NAME="JSONGenerator Coverage Results" MODIFIED="1585252316789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/helper" />
-    <SUITE FILE_PATH="coverage/comex$parser.coverage" NAME="parser Coverage Results" MODIFIED="1584973874734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/templates/comex" />
-    <SUITE FILE_PATH="coverage/comex$config_file_parser.coverage" NAME="config_file_parser Coverage Results" MODIFIED="1585493920893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/helper" />
+    <SUITE FILE_PATH="coverage/comex$lxd_signals.coverage" NAME="lxd_signals Coverage Results" MODIFIED="1585742460685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/helper" />
     <SUITE FILE_PATH="coverage/comex$wrappers.coverage" NAME="wrappers Coverage Results" MODIFIED="1585252103085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/helper" />
+    <SUITE FILE_PATH="coverage/comex$parser.coverage" NAME="parser Coverage Results" MODIFIED="1584973874734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/templates/comex" />
+    <SUITE FILE_PATH="coverage/comex$JSONGenerator.coverage" NAME="JSONGenerator Coverage Results" MODIFIED="1585252316789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/helper" />
+    <SUITE FILE_PATH="coverage/comex$network_creator.coverage" NAME="network_creator Coverage Results" MODIFIED="1585738458517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/helper/creators" />
+    <SUITE FILE_PATH="coverage/comex$config_file_parser.coverage" NAME="config_file_parser Coverage Results" MODIFIED="1585660215665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/helper/parsers" />
+    <SUITE FILE_PATH="coverage/comex$config_file_validator.coverage" NAME="config_file_validator Coverage Results" MODIFIED="1585601196070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/helper" />
+    <SUITE FILE_PATH="coverage/comex$parser__1_.coverage" NAME="parser (1) Coverage Results" MODIFIED="1585252156779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/helper" />
     <SUITE FILE_PATH="coverage/comex$reversing.coverage" NAME="reversing Coverage Results" MODIFIED="1585407320639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comex/helper" />
   </component>
 </project>

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 {% load static %}
+{% load extra %}
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Modify Network</title>
+    <title>Network List</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="{% static 'comex/vendors/iconfonts/mdi/css/materialdesignicons.min.css' %}">
     <link rel="stylesheet" href="{% static 'comex/vendors/iconfonts/ionicons/css/ionicons.css' %}">
@@ -186,7 +187,7 @@
                     </a>
                     <div class="collapse" id="ui-basic">
                         <ul class="nav flex-column sub-menu">
-                            <<li class="nav-item">
+                            <li class="nav-item">
                                 <a class="nav-link" href="{% url 'index' %}">Networks Graph</a>
                             </li>
                             <li class="nav-item">
@@ -214,10 +215,40 @@
                 <div class="row page-title-header">
                     <div class="col-12">
                         <div class="page-header">
-                            <h4 class="page-title">Dashboard</h4>
+                            <h4 class="page-title">Networks</h4>
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-lg-12 grid-margin">
+                        <div class="card">
+                            <table class="table table-hover">
+                                <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>Type</th>
+                                    <th>IPv4 Address</th>
+                                    <th>IPv6 Address</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {% for network in networks %}
+                                    <tr>
+                                        <td>{{ network.name }}</td>
+                                        <td>{{ network.description }}</td>
+                                        <td>{{ network.type }}</td>
+                                        <td>{{ network.config | hash:'ipv4.address' }}</td>
+                                        <td>{{ network.config | hash:'ipv6.address' }}</td>
+                                    </tr>
+                                {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <!-- content-wrapper ends -->
             <!-- partial:partials/_footer.html -->

@@ -33,6 +33,7 @@ class NetworkConfig(models.Model):
     ipv6Address = models.CharField(max_length=30, default='')
     ipv6Dhcp = models.BooleanField(default=True)
     ipv6DhcpExpiry = models.CharField(max_length=30, default='1h')
+    ipv6DhcpRanges = models.CharField(max_length=30, default='')
     ipv6DhcpStateful = models.BooleanField(default=False)
     ipv6Firewall = models.BooleanField(default=True)
     ipv6Nat = models.BooleanField(default=False)
