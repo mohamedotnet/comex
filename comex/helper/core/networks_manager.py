@@ -1,4 +1,5 @@
 import json
+from pylxd import Client
 from comex.helper.parsers.config_file_parser import parse_configuration_file, network_info_parser
 
 
@@ -30,3 +31,15 @@ def all_networks_lxd(client):
     :return:
     """
     return client.networks.all()
+
+
+def all_network(client):
+    networks = []
+    for n in all_networks_lxd(client):
+        if n.type == 'bridge':
+            networks.append(n.name)
+
+    return networks
+
+
+#print(all_network(Client()))

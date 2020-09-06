@@ -271,7 +271,7 @@
                                 </div>
                                 {% for network in container_network %}
                                     <div class="row">
-                                        <div class="col-6 cold-sm-6">
+                                        <div class="col-6">
                                             <div class="wrapper border-botoom mb-2 pb-2">
                                                 <div class="d-flex align-items-center">
                                                     <div class="dot-indicator bg-primary ml-auto mr-2"></div>
@@ -290,8 +290,8 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="font-weight-semibold mb-0" align="center">CREATE DEVICE</h4>
-                                <form action="{% url 'create_network' %}" method="post" class="form-sample"
-                                      id="network_form">
+                                <form action="{% url 'connect_container' container.name%}" method="post" class="form-sample"
+                                      id="connect_container">
                                     {% csrf_token %}
                                     <div class="row mt-3">
                                         <div class="col-md-12">

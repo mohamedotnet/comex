@@ -43,3 +43,18 @@ def generate_network_json_file(network, network_config):
     json.dump(net, configuration)
 
     return net
+
+
+#TODO: extend configuration
+def create_network_device(name, parent):
+    device = {}
+    config = {'nictype': 'bridged',
+              'parent': parent,
+              'type': 'nic'}
+
+    if not name:
+        device[parent] = config
+    else:
+        device[name] = config
+
+    return device
